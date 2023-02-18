@@ -1,0 +1,93 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin: 0.5em;
+    position: relative;
+    border: none;
+}
+
+.areaSearch {
+    position: absolute;
+    top:0px;
+    padding: 15px;
+    width: 91.5%;
+    border-radius: 10px;      
+}
+
+
+.areaSearch::placeholder {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.searchButton {
+    outline: none;
+    position: absolute;
+    top:5px;
+    right: 0;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.FaSistrix {
+    font-size: 20%;
+    color: gray;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+/* .searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+  }
+  
+.areaSearch {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+    position: relative;
+}
+  
+.searchButton {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+}
+  
+.FaSistrix {
+    font-size: 24px;
+    color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.lineSear {
+    width: 100%;
+    height: 2px;
+    background-color: lightgray;
+    margin: 20px 0;
+}
+   */
+  
+  
